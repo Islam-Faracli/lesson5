@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+#outer{
+    border: 2px solid black;
+    color: black;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    
+}
+#inner{
+    border: 2px solid red;
+    color: red;
+    width: 200px;
+    height: 100px;
+}
+#text{
+    position: absolute;
+    border: 0px solid black;
+    color: blue;
+    width: 158px;
+    height: 218.5px;
+    margin: 16px 0px;
+}

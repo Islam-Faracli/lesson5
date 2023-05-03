@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+#all{
+    margin: 40px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+}
+li{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+#one{
+    background-color:yellow;
+    position: relative;
+    right: 50px;
+}
+#two{
+    background-color: green;
+}
+#three{
+    background-color: blue;
+}
+#four{
+    background-color: red;
+}

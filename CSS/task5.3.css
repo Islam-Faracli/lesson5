@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+#text{
+    position: relative;
+    margin: 20px;
+    border: 5px solid gray;
+    width: 450px;
+    height: 300px;
+}
+p{
+    padding: 20px 10px;
+    font-size: 22px;
+}
+#target{
+    padding: 20px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 22px;
+    color: white;
+}
